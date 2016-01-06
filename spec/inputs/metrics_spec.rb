@@ -2,7 +2,7 @@
 require "logstash/devutils/rspec/spec_helper"
 require "logstash/inputs/metrics"
 
-describe LogStash::Inputs::Example do
+describe LogStash::Inputs::Metrics do
 
   it_behaves_like "an interruptible input plugin" do
     let(:config) { { "interval" => 100 } }
